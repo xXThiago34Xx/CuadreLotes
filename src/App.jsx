@@ -103,7 +103,7 @@ const App = () => {
         <thead>
           <tr>
             <th>Nro Caja</th>
-            <th>Trx</th>
+            <th>Total/Lotes</th>
             <th>Credito + Debito</th>
             <th>Abonos 6001</th>
           </tr>
@@ -138,8 +138,8 @@ const App = () => {
           {rows.length === 30 && (
             <>
               <tr>
-                <th>Nro Caja</th>
-                <th>Trx</th>
+                <th></th>
+                <th>Total/Lotes</th>
                 <th>Credito + Debito</th>
                 <th>Abonos 6001</th>
               </tr>
